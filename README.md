@@ -12,9 +12,3 @@ An all-in-one AI-powered developer workspace built with **Streamlit** and the mo
 * **📊 Complexity Analytics:** Rates code logic on a scale from 1 to 10 and dynamically displays a color-coded status badge (Low, Medium, or High complexity) along with an architectural analysis.
 * **🌐 Cross-Language Translator:** Instantly rewrites input logic from one programming language into another (Python, JavaScript, C++, Java, Go, Rust).
 * **📥 Markdown Documentation Downloader:** Compiles the full workspace analysis into a professional `.md` file, ready to be added straight to your GitHub repositories.
-
----
-
-## 🛠️ System Architecture & Workflow
-
-The application operates as a stacked, top-to-bottom pipeline that passes code securely to Google's AI models via environment variables without hardcoding secret keys:
